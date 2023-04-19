@@ -2,6 +2,9 @@
     float: left;
 }
 
+.btn {
+    float: right;
+}
 .heading {
     color: rgb(1, 0, 87);
     font-size: 25px;
