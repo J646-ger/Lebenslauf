@@ -1,0 +1,283 @@
+<!--http://127.0.0.1:3000/online.html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lebenslauf</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="icon" href="picture.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <img class="picture" height="100px" src="picture.png" />
+    <!--Contact-->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Contact Me!
+    </button>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Contact</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <a>E-Mail: Julian-.....@...</a>
+            <br />
+            <a>Tel: 015xxxxxxxxxx </a>
+            <br />
+            <a>Adresse: Musterstraße 1, 4785 Musterstadt </a>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="heading main">Lebenslauf</h1>
+    <!--Accordion-->
+    <br />
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne"
+            aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne"
+          >
+            <!--Perönlich-->
+            <h2 class="heading">Persönliche Angaben</h2>
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseOne"
+          class="accordion-collapse collapse show"
+        >
+          <div class="accordion-body">
+            <table class="table table-borderless">
+              <tr>
+                <td width="400"><strong>・Name</strong></td>
+                <td><u>Julian</u> S</td>
+              </tr>
+              <tr>
+                <td><strong>・Geburtsdatum, -ort</strong></td>
+                <td>
+                  06.04.2006 in
+                  <span class="badge rounded-pill text-bg-secondary">
+                    <a href="https://www.musterstadt.info/" target="_blank"
+                      >Musterstadt</a
+                    ></span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td><strong>・Adresse</strong></td>
+                <td>
+                  <span class="badge rounded-pill text-bg-secondary">
+                    <a
+                      href="https://www.google.de/maps/search/musterstra%C3%9Fe+1/"
+                      target="_blank"
+                      >Musterstraße 1</a
+                    ></span
+                  >, 4785
+                  <span class="badge rounded-pill text-bg-secondary">
+                    <a href="https://www.musterstadt.info/" target="_blank"
+                      >Musterstadt</a
+                    ></span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td><strong>・E-Mail</strong></td>
+                <td>
+                  <span class="badge rounded-pill text-bg-secondary">
+                    <a href="mailto: Julian-matthis@gmx.net"
+                      >Julian-.....@...</a
+                    ></span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>・Eltern</strong></td>
+                <td>Ina (Beruf)</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Michael (Beruf)</td>
+              </tr>
+              <tr>
+                <td><strong>・Geschwister</strong></td>
+                <td>Maximilian (Azubi)</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo"
+          >
+            <!--Schullaufbahn-->
+            <h2 class="heading">Schullaufbahn</h2>
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseTwo"
+          class="accordion-collapse collapse"
+        >
+          <div class="accordion-body">
+            <table class="table table-borderless">
+              <tr>
+                <td width="400"><strong>・Grundschule</strong></td>
+                <td>09/2012 - 08/2016</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <span class="badge rounded-pill text-bg-secondary">
+                    <a href="https://schule-am-roederplatz.de/" target="_blank"
+                      >GS</a
+                    ></span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>・Realschule</strong></td>
+                <td>09/2016 - 08/2022</td>
+              </tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <span class="badge rounded-pill text-bg-secondary">
+                    <a href="https://schule-am-roederplatz.de/" target="_blank"
+                      >RS</a
+                    ></span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td><strong>・FOS</strong></td>
+                <td>Seit 09/2022</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <span class="badge rounded-pill text-bg-secondary">
+                    <a href="https://schule-am-roederplatz.de/" target="_blank"
+                      >FOS</a
+                    ></span
+                  >
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree"
+            aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree"
+          >
+            <!--Sonstiges-->
+            <h2 class="heading">Sonstige Angaben</h2>
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseThree"
+          class="accordion-collapse collapse"
+        >
+          <div class="accordion-body">
+            <table class="table table-borderless">
+              <tr>
+                <td width="400"><strong>・Hobbys</strong></td>
+                <td>
+                  Rettungsschwimmen bei der
+                  <span class="badge rounded-pill text-bg-secondary">
+                    <a href="https://www.drk.de/wasserwacht/" target="_blank"
+                      >WW</a
+                    >
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  Handball beim
+                  <span class="badge rounded-pill text-bg-secondary">
+                    <a
+                      href="https://de.wikipedia.org/wiki/Handball"
+                      target="_blank"
+                      >Verein</a
+                    ></span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td><strong>・Sonstiges</strong></td>
+                <td>Wasserretter und Fachsanitäter</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
